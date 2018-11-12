@@ -1,0 +1,37 @@
+[{
+        "id": 0,
+        "name": "Paul",
+        "age": 23,
+        "city": "Lille"
+    },
+    {
+        "id": 1,
+        "name": "Pierre",
+        "age": 25,
+        "city": "Tourcoing"
+    },
+    {
+        "id": 2,
+        "name": "Jaques",
+        "age": 32,
+        "city": "Roubaix"
+    },
+    {
+        "id": 3,
+        "name": "Julie",
+        "age": 27,
+        "city": "Villeneuve d'Ascq"
+    },
+    {
+        "id": 4,
+        "name": "Nicolas",
+        "age": 19,
+        "city": "Lesquin"
+    },
+    {
+        "id": 5,
+        "name": "Jessy",
+        "age": 20,
+        "city": "Calais"
+    }
+]
