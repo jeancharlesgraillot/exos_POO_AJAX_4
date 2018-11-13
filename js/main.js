@@ -9,18 +9,18 @@ xhttp.onreadystatechange = function () {
 
 xhttp.open("GET", "users.json", true);
 xhttp.send();
-// Un objet se chargera de stocker la liste de clients récupérée sur le serveur, de la trier, de mettre
-// chaque client dans une
-// case du tableau etc.
 
+
+// An object to create a table where to stock json data (clients list)
 class User {
     constructor() {
         this.table = [];
     }
 }
+
 let user = new User();
 
-
+// An object to create html elements and display it
 let htmlManager = {
 
     parentElt: document.getElementById('usersInfos'),
@@ -56,7 +56,7 @@ let htmlManager = {
     }
 
 }
-
+// An object to sort clients data on change of selected value in HTML
 let usersManager = {
 
     change_myselect: function (key) {

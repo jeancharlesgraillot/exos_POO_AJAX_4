@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Exo 4</title>
+  <title>Exo 4 POO Ajax</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
@@ -39,15 +39,7 @@
     <div class="container">
 
       <div class="col-12 mt-4">
-
-        <!-- <select name="users" id="usersclass=" d-block mx-auto">
-          <option value="id">Id</option>
-          <option value="name">Nom</option>
-          <option value="age">Age</option>
-          <option value="city">Ville</option>
-        </select> -->
-
-
+        <!-- Call to change_myselect function who's in usersManager object to sort table on change of selected value -->
         <select id="myselect" onchange="usersManager.change_myselect(this.value)" class="d-block mx-auto">
           <option value="">Choisissez une option:</option>
           <option value="name">Nom</option>
